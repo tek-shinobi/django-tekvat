@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+twine = "*"
+black = "==19.10b0"
+
+[packages]
+pytest = "*"
+babel = "*"
+pytest-cov = "*"
+typing = "*"
+codecov = "*"
+mypy = "*"
+flake8 = "*"
+check-manifest = "*"
+jsonfield2 = "*"
+tekmoney = "*"
+
+[requires]
+python_version = "3.8"
